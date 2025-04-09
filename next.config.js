@@ -20,11 +20,9 @@ const nextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
   },
-  // Configuration for Node.js runtime and disabling Edge Runtime warnings
+  // Configuration for disabling Edge Runtime warnings
   experimental: {
-    serverComponentsExternalPackages: ['scheduler'],
-    runtime: 'nodejs',
-    serverComponents: true
+    serverComponentsExternalPackages: ['scheduler']
   },
 }
 
