@@ -6,9 +6,7 @@
     "dev": "next dev",
     "build": "next build --no-lint",
     "start": "next start",
-    "lint": "next lint",
-    "vercel-build": "npm install --legacy-peer-deps && node install-deps.js && npm run build-vercel",
-    "build-vercel": "NODE_OPTIONS='--max_old_space_size=4096' next build"
+    "lint": "next lint"
   },
   "dependencies": {
     "@clerk/nextjs": "4.23.2",
